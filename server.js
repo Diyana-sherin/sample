@@ -19,8 +19,8 @@ app.set('views',path.join(__dirname,'views'))
 
 
 //route 
-app.get('/',(req,  res)=>{
-    res.send('hello')
+app.get('/',(req,res)=>{
+    res.send('hell')
 })
 
 
