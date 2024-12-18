@@ -19,7 +19,7 @@ app.set('views',path.join(__dirname,'views'))
 
 
 //route 
-app.get('/',(req, res)=>{
+app.get('/',(req,  res)=>{
     res.send('hello')
 })
 
